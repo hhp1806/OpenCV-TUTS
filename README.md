@@ -1,1 +1,1 @@
-QT PROJECT
+Phát hiện chuyển động
