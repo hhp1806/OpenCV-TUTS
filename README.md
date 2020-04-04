@@ -1,1 +1,1 @@
-QT PROJECT
+Label ảnh trước khi train 
