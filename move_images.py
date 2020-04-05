@@ -1,3 +1,5 @@
+#Chuyển file từ thư mục chứa ảnh vào thư mục images và đánh tên theo thứ tự
+
 import os
 
 folders = [r'C:\Users\hhp18\OneDrive\Desktop\Console_Dataset\Console Dataset__xbox\img', r'C:\Users\hhp18\OneDrive\Desktop\Console_Dataset\Console Dataset__ playstation\img']
