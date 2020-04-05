@@ -1,3 +1,5 @@
+#Tạo file train.txt 
+
 import os
 
 path='data/obj/'
