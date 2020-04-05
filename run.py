@@ -1,3 +1,5 @@
+#Vẽ bouding box cho ảnh trong file images 
+
 import argparse
 import textwrap
 import glob
