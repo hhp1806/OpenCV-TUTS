@@ -1,1 +1,1 @@
-QT PROJECT
+MobileNET SSD
