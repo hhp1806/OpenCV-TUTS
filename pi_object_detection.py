@@ -124,11 +124,11 @@ while True:
 				confidence * 100)
 			cv2.rectangle(frame, (startX, startY), (endX, endY),
 				COLORS[idx], 2)
-			cv2.circle(frame, (Cx, Cy), 0, (0, 0, 255), -1)
+			#cv2.circle(frame, (Cx, Cy), 0, (0, 0, 255), -1)
 			y = startY - 15 if startY - 15 > 15 else startY + 15
-			cv2.putText(frame, label, (startX, y),
+			cv2.putText(frame, label + format(Cx) + "," + format(Cy), (startX, y),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
-			cv2.putText(frame, str(Cx) + "," + str(Cy), (Cx, Cy+20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
+			#cv2.putText(frame, str(Cx) + "," + str(Cy), (Cx, Cy+20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
 	# show the output frame
 	cv2.imshow("Frame", frame)
